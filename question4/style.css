@@ -1,0 +1,43 @@
+body #image_10 {
+    order: 1;
+    position: absolute;
+    z-index: 1;
+}
+
+body #image_jack {
+    order: 2;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 2;
+}
+
+body #image_queen {
+    order: 3;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    z-index: 3;
+}
+
+body #image_king {
+    order: 4;
+    position: absolute;
+    left: 45px;
+    top: 45px;
+    z-index: 4;
+}
+
+img#image_king:hover {
+    content: url("./images/diamonds_ace.gif");
+}
+
+#test {
+    display: inline-block;
+    position: relative;
+}
+
+body {
+    display: flex;
+    position: relative;
+}

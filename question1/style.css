@@ -1,0 +1,18 @@
+p {
+    display: inline;
+    text-decoration: underline;
+    color: #551A8B;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+p:active {
+    color: red;
+}
+
+img {
+    transition: 1s;
+    width: 390px;
+}
